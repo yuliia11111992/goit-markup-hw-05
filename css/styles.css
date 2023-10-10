@@ -612,6 +612,7 @@ margin-bottom: 4px;
 }
 .form_container_name{
   position: relative; 
+  margin-bottom: 8px;
 }
 .form_container_name_input{
   width: 100%;
