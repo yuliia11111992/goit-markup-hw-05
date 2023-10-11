@@ -661,9 +661,7 @@ margin-bottom: 4px;
 .textarea_name:focus{
   border-color: #4D5AE5; 
 }
-.checkbox_input:visually-hidden{
 
-}
 .checkbox_input_title{
   font-size: 12px;
   line-height: 1.17;
@@ -689,6 +687,7 @@ margin-bottom: 4px;
   font-family: Roboto;
 font-size: 12px;
 line-height: 16px;
+font-weight: 400;
 letter-spacing: 0.48px;
 text-decoration-line: underline;
 }
