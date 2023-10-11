@@ -671,16 +671,12 @@ margin-bottom: 4px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99; 
+  display: flex;
+  align-items: center;
+justify-content: center; 
 
 }
-.checkbox_blue_text{
-  color:#4D5AE5;
-  font-family: Roboto;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.48px;
-  text-decoration-line: underline;
-}
+
 .check_icon{
 width: 16px;
 height: 16px;
