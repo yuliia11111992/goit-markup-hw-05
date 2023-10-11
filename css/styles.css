@@ -687,4 +687,5 @@ display: inline-flex;
 align-items: center;
 justify-content: center; 
 fill: transparent; 
+display: inline-flex; 
 }
