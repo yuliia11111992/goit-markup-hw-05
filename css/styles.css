@@ -662,14 +662,17 @@ margin-bottom: 4px;
   border-color: #4D5AE5; 
 }
 .checkbox_container{
-  margin-bottom: 24px; 
-}
+  margin-bottom: 24px;
+position: relative; }
 
-.checkbox_input_title{
+.checkbox_input_title {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em; 
   color:#8e8f99;
+margin-left: 24px;
+align-items: center; 
+justify-content: center; 
 }
 .checkbox_container_icon{
   width: 16px;
@@ -681,6 +684,10 @@ margin-bottom: 4px;
   align-items: center; 
   justify-content: center; 
   fill: transparent; 
+  position: absolute;
+  left: 0;
+
+
 }
 .checkbox_container_icon_name{
 
