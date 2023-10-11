@@ -640,7 +640,6 @@ margin-bottom: 4px;
 }
 .textarea_container{
   margin-bottom: 16px;
-  
 }
 .textarea_name{
   width: 100%; 
@@ -691,6 +690,12 @@ justify-content: center;
 }
 .checkbox_container_icon_name{
 
+}
+.checkbox_input:checked+.checkbox_input_title>.checkbox_container_icon{
+  background-color: #404BBF;
+    border: none;
+    fill: #FFFFFF;
+    border-color: #404BBF;
 }
 .checkbox_text_icon{
   color:  #4d5ae5;
