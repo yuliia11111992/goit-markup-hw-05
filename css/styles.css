@@ -661,6 +661,9 @@ margin-bottom: 4px;
 .textarea_name:focus{
   border-color: #4D5AE5; 
 }
+.checkbox_container{
+  margin-bottom: 24px; 
+}
 
 .checkbox_input_title{
   font-size: 12px;
