@@ -535,11 +535,11 @@ padding: 8px 24px;
   margin-left: 16px;
 }
 .modal_window {
-  width: 100%;
   position: fixed; 
   left: 0;
   top: 0; 
   height: 100%;
+  width: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -640,6 +640,7 @@ margin-bottom: 4px;
 }
 .textarea_container{
   margin-bottom: 16px;
+  
 }
 .textarea_name{
   width: 100%; 
@@ -660,30 +661,31 @@ margin-bottom: 4px;
 .textarea_name:focus{
   border-color: #4D5AE5; 
 }
-.checkbox_container{
-  margin-bottom: 24px;
-}
-.checkbox_input{
- 
-}
-.checkbox_text{
+.checkbox_input_title{
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99; 
-  align-items: center;
-justify-content: center; 
-
+  letter-spacing: 0.04em; 
+  color:#8e8f99;
 }
-
-.check_icon{
-width: 16px;
-height: 16px;
-border: 1px solid rgba(46, 47, 66, 0.4);
-border-radius: 2px; 
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-display: inline-flex;
-align-items: center;
-justify-content: center; 
-fill: transparent;  
+.checkbox_container_icon{
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4); 
+  border-radius: 2px; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  fill: transparent; 
+}
+.checkbox_container_icon_name{
+  
+}
+.checkbox_text_icon{
+  color:  #4d5ae5;
+  font-family: Roboto;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.48px;
+text-decoration-line: underline;
 }
