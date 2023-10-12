@@ -681,7 +681,8 @@ margin-bottom: 4px;
   justify-content: center; 
   fill: transparent; 
 }
-.checkbox_input:checked +.checkbox_input_title>.checkbox_container_icon{
+
+.checkbox_input:checked +.checkbox_input_title >.checkbox_container_icon{
   background-color: #404BBF;
     border: none;
     fill: #F4F4FD; 
@@ -697,4 +698,22 @@ line-height: 16px;
 font-weight: 400;
 letter-spacing: 0.48px;
 text-decoration-line: underline;
+}
+.checkbox_container_button{
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+  margin-top: 24px;
 }
