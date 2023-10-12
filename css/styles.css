@@ -680,16 +680,14 @@ margin-bottom: 4px;
   align-items: center; 
   justify-content: center; 
   fill: transparent; 
-
-
-}
-.checkbox_container_icon_name{
-
 }
 .checkbox_input:checked +.checkbox_input_title>.checkbox_container_icon{
   background-color: #404BBF;
     border: none;
     fill: #F4F4FD; 
+}
+.checkbox_container_icon_name{
+
 }
 .checkbox_text_icon{
   color:  #4d5ae5;
