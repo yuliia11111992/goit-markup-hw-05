@@ -692,7 +692,7 @@ margin-bottom: 4px;
 .checkbox_container_icon_name{
 
 }
-.checkbox_text_icon{
+.checkbox_text_icon:link{
   color:  #4d5ae5;
   font-family: Roboto;
 font-size: 12px;
